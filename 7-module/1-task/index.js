@@ -85,7 +85,6 @@ export default class RibbonMenu {
 
     })
 
-    this.elem.addEventListener('ribbon-select', (e)=> console.log('BOOM', e.detail))
 
   }
 }

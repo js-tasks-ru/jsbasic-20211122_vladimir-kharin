@@ -37,7 +37,6 @@ export default class Modal {
     }
 
     function keyCheck (event) {
-      console.log("CheckedKey")
       if (event.code === 'Escape') closeAll()
     }
 
